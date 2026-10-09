@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Name>SynchCheck</Name>
+    <Version>1.0</Version>
+    <Description>Multi-Modal Deepfake Detector based on biological desynchronization.</Description>
+    <Settings>
+        <Paths>
+            <RawData>data/raw</RawData>
+            <ProcessedData>data/processed</ProcessedData>
+            <Models>src/models</Models>
+        </Paths>
+        <Hyperparameters>
+            <BatchSize>32</BatchSize>
+            <LearningRate>0.001</LearningRate>
+            <FramesPerSequence>20</FramesPerSequence>
+            <MouthCropSize>
+                <Width>112</Width>
+                <Height>112</Height>
+            </MouthCropSize>
+        </Hyperparameters>
+    </Settings>
+</Project>

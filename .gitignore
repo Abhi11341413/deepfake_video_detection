@@ -1,0 +1,32 @@
+# 1. Python & Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# 2. PyTorch Lightning Logs & Checkpoints
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+
+# 3. Heavy Datasets & Media
+# (Never push raw videos or extracted numpy arrays to GitHub)
+data/
+train_sample_videos/
+*.mp4
+*.npy
+*.wav
+
+# 4. Large Model Assets & Documents
+# (Binaries and large PDFs should generally stay local)
+face_landmarker.task
+*.pdf
+
+# 5. OS & IDE Specific Files
+.vscode/
+.idea/
+.DS_Store
